@@ -30,4 +30,9 @@ public class QualitydemyStepdefinitions {
     public void basarili_giris_yapildigini_test_eder() {
         Assert.assertTrue(qualitydemyPage.basariliGirisElementi.isDisplayed());
     }
+
+    @Then("basarili giris yapilamadigini test eder")
+    public void basariliGirisYapilamadiginiTestEder() {
+        Assert.assertTrue(qualitydemyPage.emailKutusu.isDisplayed());
+    }
 }
