@@ -1,3 +1,4 @@
+@nltest
 Feature: US1004 Gecersiz bilgilerle giris yapilamaz
 
   Scenario: TC06 gecerli email, gecersiz password ile giris yapilamaz
@@ -9,7 +10,7 @@ Feature: US1004 Gecersiz bilgilerle giris yapilamaz
     And login butonuna basar
     Then basarili giris yapilamadigini test eder
     And sayfayi kapatir
-
+  @nlt2
   Scenario: TC07 gecersiz email,gecerli password ile giris yapilamaz
 
     Given kullanici "qdUrl" anasayfaya gider
