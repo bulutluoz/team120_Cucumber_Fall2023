@@ -1,6 +1,6 @@
 Feature: US1005 kullanici amazonda arama yapip ilk urunu test eder
 
-  @wip
+
   Scenario: TC09 Ilk urun testi
 
     Given kullanici "amazonUrl" anasayfaya gider

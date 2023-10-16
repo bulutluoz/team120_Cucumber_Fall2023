@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.156" tests="5" skipped="0" failures="5" errors="0">
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.1" time="0.015">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "googleUrl" anasayfaya gider................................passed
+Then google da "Nutella" icin arama yapar...................................undefined
+And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.2" time="0.001">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "googleUrl" anasayfaya gider................................passed
+Then google da "Java" icin arama yapar......................................undefined
+And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.3" time="0.001">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "googleUrl" anasayfaya gider................................passed
+Then google da "Apple" icin arama yapar.....................................undefined
+And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.4" time="0.003">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "googleUrl" anasayfaya gider................................passed
+Then google da "Samsung" icin arama yapar...................................undefined
+And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.5" time="0.002">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "googleUrl" anasayfaya gider................................passed
+Then google da "Wisequarter" icin arama yapar...............................undefined
+And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
+And sayfayi kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
