@@ -1,48 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.156" tests="5" skipped="0" failures="5" errors="0">
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.1" time="0.015">
-<failure/>
+<testsuite name="Cucumber" time="28.357" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.1" time="5.688">
 <system-out><![CDATA[
 Given kullanici "googleUrl" anasayfaya gider................................passed
-Then google da "Nutella" icin arama yapar...................................undefined
-And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
-And sayfayi kapatir.........................................................skipped
+And cookies kabul eder......................................................passed
+And 2 saniye bekler.........................................................passed
+Then google da "Nutella" icin arama yapar...................................passed
+And google arama sonuclarinin "Nutella" icerdigini test eder................passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.2" time="0.001">
-<failure/>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.2" time="5.824">
 <system-out><![CDATA[
 Given kullanici "googleUrl" anasayfaya gider................................passed
-Then google da "Java" icin arama yapar......................................undefined
-And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
-And sayfayi kapatir.........................................................skipped
+And cookies kabul eder......................................................passed
+And 2 saniye bekler.........................................................passed
+Then google da "Java" icin arama yapar......................................passed
+And google arama sonuclarinin "Java" icerdigini test eder...................passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.3" time="0.001">
-<failure/>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.3" time="5.838">
 <system-out><![CDATA[
 Given kullanici "googleUrl" anasayfaya gider................................passed
-Then google da "Apple" icin arama yapar.....................................undefined
-And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
-And sayfayi kapatir.........................................................skipped
+And cookies kabul eder......................................................passed
+And 2 saniye bekler.........................................................passed
+Then google da "Apple" icin arama yapar.....................................passed
+And google arama sonuclarinin "Apple" icerdigini test eder..................passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.4" time="0.003">
-<failure/>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.4" time="5.851">
 <system-out><![CDATA[
 Given kullanici "googleUrl" anasayfaya gider................................passed
-Then google da "Samsung" icin arama yapar...................................undefined
-And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
-And sayfayi kapatir.........................................................skipped
+And cookies kabul eder......................................................passed
+And 2 saniye bekler.........................................................passed
+Then google da "Samsung" icin arama yapar...................................passed
+And google arama sonuclarinin "Samsung" icerdigini test eder................passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.5" time="0.002">
-<failure/>
+<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.5" time="5.057">
 <system-out><![CDATA[
 Given kullanici "googleUrl" anasayfaya gider................................passed
-Then google da "Wisequarter" icin arama yapar...............................undefined
-And google arama sonuclarinin "istenenKelime" icerdigini test eder..........skipped
-And sayfayi kapatir.........................................................skipped
+And cookies kabul eder......................................................passed
+And 2 saniye bekler.........................................................passed
+Then google da "Wisequarter" icin arama yapar...............................passed
+And google arama sonuclarinin "Wisequarter" icerdigini test eder............passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

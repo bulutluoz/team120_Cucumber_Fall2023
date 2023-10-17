@@ -6,8 +6,10 @@ Feature: US1006 verilen listedeki urunleri google'da arama
   Scenario Outline: TC10 google'da listedeki urunler aratilabilmeli
 
     Given kullanici "googleUrl" anasayfaya gider
+    And cookies kabul eder
+    And 2 saniye bekler
     Then google da "<istenenKelime>" icin arama yapar
-    And google arama sonuclarinin "istenenKelime" icerdigini test eder
+    And google arama sonuclarinin "<istenenKelime>" icerdigini test eder
     And sayfayi kapatir
 
     Examples:
