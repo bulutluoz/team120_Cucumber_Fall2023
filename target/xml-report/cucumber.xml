@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="5.555" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1009 Webdriver university testi" name="TC13 coklu window testi" time="5.466">
+<testsuite name="Cucumber" time="9.047" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1009 Webdriver university testi" name="TC13 coklu window testi" time="8.965">
 <system-out><![CDATA[
 Given kullanici "webUniUrl" anasayfaya gider................................passed
 Then Login Portal a  kadar asagi iner.......................................passed
@@ -8,11 +8,9 @@ And Login Portal a tiklar...................................................pass
 Then Diger window'a gecer...................................................passed
 And username ve  password kutularina faker ile deger yazdirir...............passed
 And webUni login butonuna basar.............................................passed
-Then Popup'ta cikan yazinin validation failed oldugunu test eder............passed
-And Ok diyerek Popup'i kapatir..............................................passed
 When Ilk sayfaya geri doner.................................................passed
 Then Ilk sayfaya donuldugunu test eder......................................passed
-And sayfayi kapatir.........................................................passed
+And sayfalari kapatir.......................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

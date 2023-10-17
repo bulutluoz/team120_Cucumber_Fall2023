@@ -16,4 +16,13 @@ public class WebUniPage {
 
     @FindBy(xpath = "//*[text()='LOGIN PORTAL']")
     public WebElement loginPortalButonu;
+
+    @FindBy(xpath = "//input[@id='text']")
+    public WebElement usernameKutusu;
+
+    @FindBy(xpath = "//input[@id='password']")
+    public WebElement passwordKutusu;
+
+    @FindBy(xpath = "//*[@id='login-button']")
+    public WebElement loginButonu;
 }
