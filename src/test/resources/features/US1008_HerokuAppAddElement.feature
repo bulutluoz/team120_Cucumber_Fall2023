@@ -1,6 +1,6 @@
 Feature: US1008 Kullanici herokuapp sayfasinda beklemeleri yapar
 
-  @wip
+
   Scenario: TC12 Kullanici bekleme islemlerini yapar
 
     Given kullanici "herokuappUrl" anasayfaya gider

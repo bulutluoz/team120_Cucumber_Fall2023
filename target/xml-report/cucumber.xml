@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="18.757" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1008 Kullanici herokuapp sayfasinda beklemeleri yapar" name="TC12 Kullanici bekleme islemlerini yapar" time="18.675">
+<testsuite name="Cucumber" time="5.555" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1009 Webdriver university testi" name="TC13 coklu window testi" time="5.466">
 <system-out><![CDATA[
-Given kullanici "herokuappUrl" anasayfaya gider.............................passed
-When Add Element butona basar...............................................passed
-And Delete butonu gorunur oluncaya kadar bekler.............................passed
-Then Delete butonunun gorunur oldugunu test eder............................passed
-And Delete butonuna basarak butonu siler....................................passed
-And Delete butonunun gorunmedigini test eder................................passed
+Given kullanici "webUniUrl" anasayfaya gider................................passed
+Then Login Portal a  kadar asagi iner.......................................passed
+And Login Portal a tiklar...................................................passed
+Then Diger window'a gecer...................................................passed
+And username ve  password kutularina faker ile deger yazdirir...............passed
+And webUni login butonuna basar.............................................passed
+Then Popup'ta cikan yazinin validation failed oldugunu test eder............passed
+And Ok diyerek Popup'i kapatir..............................................passed
+When Ilk sayfaya geri doner.................................................passed
+Then Ilk sayfaya donuldugunu test eder......................................passed
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
