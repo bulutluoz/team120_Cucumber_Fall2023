@@ -1,52 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="28.357" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.1" time="5.688">
+<testsuite name="Cucumber" time="28.546" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="US1007 liste olarak verilen kullanici adi ve sifrelerle giris yapilamadigini test eder" name="TC11 qualitydemy sayfasina yanlis bilgilerle giris yapilamaz - Example #1.1" time="6.455">
 <system-out><![CDATA[
-Given kullanici "googleUrl" anasayfaya gider................................passed
-And cookies kabul eder......................................................passed
-And 2 saniye bekler.........................................................passed
-Then google da "Nutella" icin arama yapar...................................passed
-And google arama sonuclarinin "Nutella" icerdigini test eder................passed
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then ilk login linkine tiklar...............................................passed
+And username kutusuna examples'dan "Suha" yazar.............................passed
+And password kutusuna examples'dan "12345" yazar............................passed
+Then 2 saniye bekler........................................................passed
+And login butonuna basar....................................................passed
+Then basarili giris yapilamadigini test eder................................passed
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.2" time="5.824">
+<testcase classname="US1007 liste olarak verilen kullanici adi ve sifrelerle giris yapilamadigini test eder" name="TC11 qualitydemy sayfasina yanlis bilgilerle giris yapilamaz - Example #1.2" time="5.788">
 <system-out><![CDATA[
-Given kullanici "googleUrl" anasayfaya gider................................passed
-And cookies kabul eder......................................................passed
-And 2 saniye bekler.........................................................passed
-Then google da "Java" icin arama yapar......................................passed
-And google arama sonuclarinin "Java" icerdigini test eder...................passed
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then ilk login linkine tiklar...............................................passed
+And username kutusuna examples'dan "Nergiz" yazar...........................passed
+And password kutusuna examples'dan "34521" yazar............................passed
+Then 2 saniye bekler........................................................passed
+And login butonuna basar....................................................passed
+Then basarili giris yapilamadigini test eder................................passed
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.3" time="5.838">
+<testcase classname="US1007 liste olarak verilen kullanici adi ve sifrelerle giris yapilamadigini test eder" name="TC11 qualitydemy sayfasina yanlis bilgilerle giris yapilamaz - Example #1.3" time="5.337">
 <system-out><![CDATA[
-Given kullanici "googleUrl" anasayfaya gider................................passed
-And cookies kabul eder......................................................passed
-And 2 saniye bekler.........................................................passed
-Then google da "Apple" icin arama yapar.....................................passed
-And google arama sonuclarinin "Apple" icerdigini test eder..................passed
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then ilk login linkine tiklar...............................................passed
+And username kutusuna examples'dan "Omer" yazar.............................passed
+And password kutusuna examples'dan "786543" yazar...........................passed
+Then 2 saniye bekler........................................................passed
+And login butonuna basar....................................................passed
+Then basarili giris yapilamadigini test eder................................passed
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.4" time="5.851">
+<testcase classname="US1007 liste olarak verilen kullanici adi ve sifrelerle giris yapilamadigini test eder" name="TC11 qualitydemy sayfasina yanlis bilgilerle giris yapilamaz - Example #1.4" time="5.595">
 <system-out><![CDATA[
-Given kullanici "googleUrl" anasayfaya gider................................passed
-And cookies kabul eder......................................................passed
-And 2 saniye bekler.........................................................passed
-Then google da "Samsung" icin arama yapar...................................passed
-And google arama sonuclarinin "Samsung" icerdigini test eder................passed
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then ilk login linkine tiklar...............................................passed
+And username kutusuna examples'dan "Mehmet" yazar...........................passed
+And password kutusuna examples'dan "98098" yazar............................passed
+Then 2 saniye bekler........................................................passed
+And login butonuna basar....................................................passed
+Then basarili giris yapilamadigini test eder................................passed
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1006 verilen listedeki urunleri google'da arama" name="TC10 google'da listedeki urunler aratilabilmeli - Example #1.5" time="5.057">
+<testcase classname="US1007 liste olarak verilen kullanici adi ve sifrelerle giris yapilamadigini test eder" name="TC11 qualitydemy sayfasina yanlis bilgilerle giris yapilamaz - Example #1.5" time="5.263">
 <system-out><![CDATA[
-Given kullanici "googleUrl" anasayfaya gider................................passed
-And cookies kabul eder......................................................passed
-And 2 saniye bekler.........................................................passed
-Then google da "Wisequarter" icin arama yapar...............................passed
-And google arama sonuclarinin "Wisequarter" icerdigini test eder............passed
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then ilk login linkine tiklar...............................................passed
+And username kutusuna examples'dan "Ertugrul" yazar.........................passed
+And password kutusuna examples'dan "87675098" yazar.........................passed
+Then 2 saniye bekler........................................................passed
+And login butonuna basar....................................................passed
+Then basarili giris yapilamadigini test eder................................passed
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
