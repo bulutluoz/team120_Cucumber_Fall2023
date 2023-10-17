@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="9.047" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1009 Webdriver university testi" name="TC13 coklu window testi" time="8.965">
+<testsuite name="Cucumber" time="4.169" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1010 Kullanici baslik ile istedigi sutunu yazdirir" name="TC14 kullanici istedigi sutunu yazdirabilmeli" time="4.085">
 <system-out><![CDATA[
-Given kullanici "webUniUrl" anasayfaya gider................................passed
-Then Login Portal a  kadar asagi iner.......................................passed
-And Login Portal a tiklar...................................................passed
-Then Diger window'a gecer...................................................passed
-And username ve  password kutularina faker ile deger yazdirir...............passed
-And webUni login butonuna basar.............................................passed
-When Ilk sayfaya geri doner.................................................passed
-Then Ilk sayfaya donuldugunu test eder......................................passed
-And sayfalari kapatir.......................................................passed
+Given kullanici "guruUrl" anasayfaya gider..................................passed
+And "Prev Close (Rs)", sutunundaki tum degerleri yazdirir...................passed
 ]]></system-out>
 </testcase>
 </testsuite>
