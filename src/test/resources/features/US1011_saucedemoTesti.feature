@@ -1,6 +1,6 @@
 Feature: US1011 Saucedemo alisveris testi
 
-  @wip
+
   Scenario: TC15 Saucedemo sitesinden alisveris yapilabilmeli
 
     Given kullanici "saucedemoUrl" anasayfaya gider

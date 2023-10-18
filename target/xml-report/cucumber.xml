@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="4.141" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1011 Saucedemo alisveris testi" name="TC15 Saucedemo sitesinden alisveris yapilabilmeli" time="4.052">
+<testsuite name="Cucumber" time="0.679" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1012 Kullanici excele data ekler" name="TC16 Kullanici excel'e data ekleyebilmeli" time="0.591">
 <system-out><![CDATA[
-Given kullanici "saucedemoUrl" anasayfaya gider.............................passed
-Then Username kutusuna "standard_user" yazar................................passed
-And Password kutusuna "secret_sauce" yazar..................................passed
-And Login tusuna basar......................................................passed
-When Ilk urunun ismini kaydeder ve bu urunun sayfasina gider................passed
-And Add to Cart butonuna basar..............................................passed
-Then Alisveris sepetine tiklar..............................................passed
-And Sectigi urunun basarili olarak sepete eklendigini kontrol eder..........passed
-Then sayfayi kapatir........................................................passed
+Given kullanici ulkeler excelinde Sayfa1'e kadar ayarlari yapar.............passed
+Then 5.sutunu olusturur.....................................................passed
+And baslik satirinda besinci hucreye yeni bir cell olusturur................passed
+And Olusturdugu hucreye "ulke nufusu" yazdirir..............................passed
+Then 2.satir ulke nufusu kolonuna 1500000000 yazdirir.......................passed
+And 8.satir ulke nufusu kolonuna 250000000 yazdirir.........................passed
+And Dosyayi kaydeder........................................................passed
+Then excel'de 2.satirin ulke nufusunun 1500000000 oldugunu test eder........passed
+And excel'de 8.satirin ulke nufusunun 250000000 oldugunu test eder..........passed
+And stream'leri kapatir.....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
