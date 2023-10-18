@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="4.169" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1010 Kullanici baslik ile istedigi sutunu yazdirir" name="TC14 kullanici istedigi sutunu yazdirabilmeli" time="4.085">
-<system-out><![CDATA[
-Given kullanici "guruUrl" anasayfaya gider..................................passed
-And "Prev Close (Rs)", sutunundaki tum degerleri yazdirir...................passed
-]]></system-out>
-</testcase>
-</testsuite>

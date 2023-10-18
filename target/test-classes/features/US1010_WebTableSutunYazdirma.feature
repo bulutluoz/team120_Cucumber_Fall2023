@@ -5,3 +5,4 @@ Feature: US1010 Kullanici baslik ile istedigi sutunu yazdirir
 
   Given kullanici "guruUrl" anasayfaya gider
   And "Prev Close (Rs)", sutunundaki tum degerleri yazdirir
+  And sayfayi kapatir

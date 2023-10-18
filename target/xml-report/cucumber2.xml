@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.522" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="US1001 Kullanici amazon anasayfada arama yapar" name="TC01 Kullanici amazonda Nutella aratir" time="8.629">
+<system-out><![CDATA[
+Given kullanici amazonUrl anasayfaya gider..................................passed
+And arama kutusuna Nutella yazip aratir.....................................passed
+Then arama sonuclarinin Nutella icerdigini test eder........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002 Kullanici parametre olarak yazdigi urunu amazonda aratir" name="TC04 parametre ile apple aratir" time="9.857">
+<system-out><![CDATA[
+Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then arama kutusuna "apple" yazip aratir....................................passed
+And arama sonuclarinin "apple" icerdigini test eder.........................passed
+Then 5 saniye bekler........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1003 kullanici gecerli bilgilerle sayfaya giris yapar" name="TC05 qualitydemy pozitif login testi" time="4.933">
+<system-out><![CDATA[
+Given kullanici "qdUrl" anasayfaya gider....................................passed
+Then ilk login linkine tiklar...............................................passed
+And username kutusuna "qdGecerliEmail" yazar................................passed
+And password kutusuna "qdGecerliPassword" yazar.............................passed
+And login butonuna basar....................................................passed
+Then basarili giris yapildigini test eder...................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -5,6 +5,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import pages.WebUniPage;
 import utilities.Driver;
@@ -46,15 +47,15 @@ public class WebUniStepdefinitions {
     }
     @Then("Popup'ta cikan yazinin validation failed oldugunu test eder")
     public void popup_ta_cikan_yazinin_validation_failed_oldugunu_test_eder() {
-        ReusableMethods.bekle(7);
+        ReusableMethods.bekle(1);
         String expectedAlertYazisi = "validation failed";
         String actualAlertYazisi = Driver.getDriver().switchTo().alert().getText();
-        System.out.println("============"+actualAlertYazisi);
         Assert.assertEquals(expectedAlertYazisi,actualAlertYazisi);
     }
     @Then("Ok diyerek Popup'i kapatir")
     public void ok_diyerek_popup_i_kapatir() {
         Driver.getDriver().switchTo().alert().accept();
+
     }
     @When("Ilk sayfaya geri doner")
     public void ilk_sayfaya_geri_doner() {
