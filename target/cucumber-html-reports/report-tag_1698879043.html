@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>18 Oct 2023, 20:15</td>
+      <td>18 Oct 2023, 20:26</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@amazon</td>
-          <td      class="passed"    >3</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >1</td>
+          <td      class="passed"    >5</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">5</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="27790154000">27.790</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="14985000000">14.985</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -183,12 +183,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">27.790</span>
+  <span class="lead-duration duration">14.985</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">TC09 Ilk urun testi</span>
 
@@ -199,16 +199,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -218,7 +218,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -226,7 +226,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">kullanici <span class="argument">&quot;amazonUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">6.063</span>
+  <span class="lead-duration duration">7.818</span>
 
 </div>
 
@@ -251,9 +251,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">arama kutusuna <span class="argument">&quot;Java&quot;</span> yazip aratir</span>
+  <span class="name">arama kutusuna <span class="argument">&quot;Nutella&quot;</span> yazip aratir</span>
 
-  <span class="lead-duration duration">2.333</span>
+  <span class="lead-duration duration">3.706</span>
 
 </div>
 
@@ -280,7 +280,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">ilk urunu tiklar</span>
 
-  <span class="lead-duration duration">4.351</span>
+  <span class="lead-duration duration">3.313</span>
 
 </div>
 
@@ -303,11 +303,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And failed">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">urun isminin <span class="argument">&quot;Nutella&quot;</span> icerdigini test eder</span>
 
-  <span class="lead-duration duration">15.041</span>
+  <span class="lead-duration duration">0.027</span>
 
 </div>
 
@@ -315,45 +315,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class='a-size-large product-title-word-break']&quot;}
-  (Session info: chrome=118.0.5993.70)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '18.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7567257214cb8ec1abde1a7ddf12fb8, findElement {using=xpath, value=//span[@class='a-size-large product-title-word-break']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/k5/tn4cs92s1h3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60182/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7567257214cb8ec1abde1a7ddf12fb8
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy24.getText(Unknown Source)
-	at stepdefinitions.AmazonStepdefinitions.urun_isminin_icerdigini_test_eder(AmazonStepdefinitions.java:82)
-	at &#10045;.urun isminin &quot;Nutella&quot; icerdigini test eder(file:///Users/ahmetbulutluoz/Desktop/My%20Desktop/course/projeler/team120_Cucumber_Fall2023/src/test/resources/features/US1005_IlkUrunTesti.feature:9)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -369,11 +330,11 @@ Session ID: a7567257214cb8ec1abde1a7ddf12fb8
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">sayfayi kapatir</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.119</span>
 
 </div>
 
@@ -400,7 +361,7 @@ Session ID: a7567257214cb8ec1abde1a7ddf12fb8
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -412,13 +373,13 @@ Session ID: a7567257214cb8ec1abde1a7ddf12fb8
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-3" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.565</span>
+  <span class="lead-duration duration">0.000</span>
 
           </div>
 
@@ -427,21 +388,6 @@ Session ID: a7567257214cb8ec1abde1a7ddf12fb8
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
-      <a>screenshots</a>
-      <a href="embeddings/embedding_1013378970.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-5" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1013378970.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="4.141" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1011 Saucedemo alisveris testi" name="TC15 Saucedemo sitesinden alisveris yapilabilmeli" time="4.052">
+<system-out><![CDATA[
+Given kullanici "saucedemoUrl" anasayfaya gider.............................passed
+Then Username kutusuna "standard_user" yazar................................passed
+And Password kutusuna "secret_sauce" yazar..................................passed
+And Login tusuna basar......................................................passed
+When Ilk urunun ismini kaydeder ve bu urunun sayfasina gider................passed
+And Add to Cart butonuna basar..............................................passed
+Then Alisveris sepetine tiklar..............................................passed
+And Sectigi urunun basarili olarak sepete eklendigini kontrol eder..........passed
+Then sayfayi kapatir........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

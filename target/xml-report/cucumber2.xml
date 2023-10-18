@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="23.522" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="US1001 Kullanici amazon anasayfada arama yapar" name="TC01 Kullanici amazonda Nutella aratir" time="8.629">
+<testsuite name="Cucumber" time="26.215" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="US1001 Kullanici amazon anasayfada arama yapar" name="TC01 Kullanici amazonda Nutella aratir" time="11.763">
 <system-out><![CDATA[
 Given kullanici amazonUrl anasayfaya gider..................................passed
 And arama kutusuna Nutella yazip aratir.....................................passed
@@ -8,7 +8,7 @@ Then arama sonuclarinin Nutella icerdigini test eder........................pass
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1002 Kullanici parametre olarak yazdigi urunu amazonda aratir" name="TC04 parametre ile apple aratir" time="9.857">
+<testcase classname="US1002 Kullanici parametre olarak yazdigi urunu amazonda aratir" name="TC04 parametre ile apple aratir" time="9.477">
 <system-out><![CDATA[
 Given kullanici "amazonUrl" anasayfaya gider................................passed
 Then arama kutusuna "apple" yazip aratir....................................passed
@@ -17,7 +17,7 @@ Then 5 saniye bekler........................................................pass
 And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US1003 kullanici gecerli bilgilerle sayfaya giris yapar" name="TC05 qualitydemy pozitif login testi" time="4.933">
+<testcase classname="US1003 kullanici gecerli bilgilerle sayfaya giris yapar" name="TC05 qualitydemy pozitif login testi" time="4.833">
 <system-out><![CDATA[
 Given kullanici "qdUrl" anasayfaya gider....................................passed
 Then ilk login linkine tiklar...............................................passed
