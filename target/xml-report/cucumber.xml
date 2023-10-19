@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.679" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1012 Kullanici excele data ekler" name="TC16 Kullanici excel'e data ekleyebilmeli" time="0.591">
+<testsuite name="Cucumber" time="3.876" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1013 Kullanici iFrame'e gecis yapabilmeli" name="TC17 iFrame otomasyon testi" time="3.781">
 <system-out><![CDATA[
-Given kullanici ulkeler excelinde Sayfa1'e kadar ayarlari yapar.............passed
-Then 5.sutunu olusturur.....................................................passed
-And baslik satirinda besinci hucreye yeni bir cell olusturur................passed
-And Olusturdugu hucreye "ulke nufusu" yazdirir..............................passed
-Then 2.satir ulke nufusu kolonuna 1500000000 yazdirir.......................passed
-And 8.satir ulke nufusu kolonuna 250000000 yazdirir.........................passed
-And Dosyayi kaydeder........................................................passed
-Then excel'de 2.satirin ulke nufusunun 1500000000 oldugunu test eder........passed
-And excel'de 8.satirin ulke nufusunun 250000000 oldugunu test eder..........passed
-And stream'leri kapatir.....................................................passed
+Given kullanici "webUniFrameUrl" anasayfaya gider...........................passed
+And ourProduct linkine tiklamak icin iFrame'e gecis yapar...................passed
+And Our Products butonuna basar.............................................passed
+Then acilan sayfada Cameras'i tiklar........................................passed
+And Popup mesajini yazdirir.................................................passed
+And close butonuna basar....................................................passed
+Then iFrame'den cikis yapar.................................................passed
+And WebdriverUniversity.com (IFrame) linkini tiklar.........................passed
+And acilan sayfa url'inin "http://webdriveruniversity.com/index.html" oldugunu test eder.passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

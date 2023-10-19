@@ -1,6 +1,6 @@
 Feature: US1012 Kullanici excele data ekler
 
-  @wip
+
   Scenario:TC16 Kullanici excel'e data ekleyebilmeli
 
     Given kullanici ulkeler excelinde Sayfa1'e kadar ayarlari yapar
